@@ -3,5 +3,12 @@
 # Run this with `python exercises/ex3.py machine.txt` from the root of the project directory.
 # It should contain at least two functions: One to read the file and return the lines, and another to print the lines with line numbers.
 
+
+def my_name(filename: str, times: int):
+    for _ in range(times):
+        print(name)
+
+my_name("Sebastian", 5)
+
 if __name__ == "__main__":
     pass
